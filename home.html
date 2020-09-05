@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Poppins:ital,wght@0,400;0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="cover-img">
+            <img src="run.svg" alt="cover-image">
+        </div>
+        <div class="form-div">
+            <form >
+                <label for="input-form">Number of Kms to cover today:</label><br>
+                <input type="number" id="input-cover" required>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+        <hr>
+        <section>
+            <h2>Last 7 days:</h2>
+            <div>
+                <ul id="ul_entries">
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
+                    <li>-</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="totals">
+                <div>
+                    <h3>Total distance :</h3>
+                    <span id="total_distance">0</span>
+                </div>
+                <div>
+                    <h3>Average distance:</h3>
+                    <span id="average">0</span>
+                </div>
+                <div>
+                    <h3>This weeks' high:</h3>
+                    <span id="highest">0</span>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            
+            <h2>Weekly target: <span id="achieved"></span> / <span id="target"> kms </span></h2>
+            <div id="toast_div"></div>
+            
+            <div id="progressbar-wrapper">
+                
+                <div id="progressbar">
+                    <!-- progress comming up -->
+                    <div id="progressbar-inside">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

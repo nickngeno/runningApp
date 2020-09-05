@@ -1,0 +1,105 @@
+body{
+    padding:0;
+    margin: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Capriola', sans-serif;
+    
+}
+main{
+    width: 50%;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    border-radius: 1rem;
+}
+.cover-img{
+ text-align: center;
+ margin: 1rem 0;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+.form-div{
+    text-align: center;
+    font-size: 1.5rem
+}
+form{
+    padding: 0.5rem;
+    width: 50%;
+    margin: 0 auto;
+    /* background:#000; */
+}
+label{
+    font-family: 'Poppins'
+}
+input[type= "number"]{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0.5rem 0;
+}
+button[type="submit"]{
+    appearance: none;
+    background: orange;
+    border-radius: 30%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.2rem;
+}
+#ul_entries{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    list-style-type: none;
+}
+#ul_entries li{
+    border: 1px solid white;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.totals{
+    margin: 1rem ;
+}
+.totals > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+.totals > div h3{
+    font-size: 1.1rem;
+}
+#progressbar-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#progressbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    /* background: conic-gradient(orange 50% , gray 50%); */
+    border-radius: 50%;
+    position: relative;
+}
+#progressbar-inside{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: rgb(167, 167, 167);
+}
